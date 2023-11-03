@@ -13,7 +13,7 @@ Maximum likelihood ratio test is proposed for Cox proportional hazard models wit
 
 # Usage
 
-- [x] [CoxSubTest-manual](https://github.com/XiaoZhangryy/inst/CoxSubTest-manual.pdf) ------------ Details of the usage of the package.
+- [x] [CoxSubTest-manual](https://github.com/XiaoZhangryy/CoxSubTest/blob/main/inst/CoxSubTest-manual.pdf) ------------ Details of the usage of the package.
 
 # Example
 
