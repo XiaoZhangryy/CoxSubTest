@@ -30,6 +30,7 @@
 #' gamma = c(1, seq(-1,1,length.out = p3-1)) 
 #' rho = 0.3
 #' cenRate = 0.2
+#' set.seed(100)
 #' data = generate_cox_data(n, alpha, beta, gamma, rho, cenRate = cenRate)
 #' fit <- CoxSubTestST(data)
 

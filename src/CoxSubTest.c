@@ -727,7 +727,7 @@ void calculate_LRT_given_id(
     }
 
     if (dodc == 1) {
-        Rprintf("Newton method not convergence in %d steps for %d-th gamma, try DC method instand.\n", maxs, loops+1);
+        Rprintf("Newton method not convergence in %d steps for %d-th gamma, try DC method instead.\n", maxs, loops+1);
         increment = tol + 1.0;
         for (j = 0; j < p; j++) beta0[j] = 0.0;
         while (increment > tol) {
