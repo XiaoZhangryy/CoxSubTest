@@ -1,0 +1,15 @@
+Package: CoxSubTest
+Type: Package
+Title: CoxSubTest
+Version: 0.0.1
+Authors@R: c(person(given = "Xiao", family = "Zhang", role = c("aut", "cre"), email = "zhangxiao1994@cuhk.edu.cn"), person(given = "Panpan", family = "Ren", role = c("aut")), person(given = "Xu", family = "Liu", role = c("aut")), person(given = "Xingjie", family = "Shi", role = c("aut")))
+Author: Xiao Zhang [aut,cre], Panpan Ren [aut], Xu Liu [aut], Xingjie Shi [aut]
+Maintainer: Xiao Zhang <zhangxiao1994@cuhk.edu.cn>
+Description: Maximum likelihood ratio test is proposed for Cox proportional hazard models with a change plane. Different testing methods are provided in this package. 
+License: GPL (>=2)
+Imports: mvtnorm
+Repository: github
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3

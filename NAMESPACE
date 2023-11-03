@@ -1,0 +1,9 @@
+import('mvtnorm')
+useDynLib(CoxSubTest, .registration=TRUE)
+exportPattern("^[[:alpha:]]+")
+
+export(CoxSubTestLRT)
+export(CoxSubTestST)
+export(CoxSubTestSUP)
+export(gam.init)
+export(generate_cox_data)
